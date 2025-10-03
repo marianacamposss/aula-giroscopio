@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# 🦈 Shark Orb – Jogo Mobile React Native
+Shark Orb é um jogo mobile feito com React Native e Expo, onde você controla um tubarão usando o giroscópio do celular para capturar peixinhos. Um projeto divertido, colorido e educativo que explora movimento físico do dispositivo, lógica de colisão, timer e pontuação.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🎯 Funcionalidades
+* Controle do tubarão por giroscópio: mova inclinando o celular.
 
-## Get started
+* Colete os peixes laranjas para ganhar pontos e tempo extra.
 
-1. Install dependencies
+* Timer dinâmico: o jogo termina quando o tempo chega a 0.
 
-   ```bash
+* Tela de Game Over com pontuação final e opção de jogar novamente.
+
+* Tela Home com recorde atual, instruções e bônus de tempo.
+
+* Tema marinho divertido: cores azul oceano, tubarão cinza, peixe laranja, botões arredondados.
+
+# ⚙ Arrumando o ambiente 
+## 1. Install dependencies
    npm install
-   ```
 
-2. Start the app
+## 2. Start the app
+   npm start
 
-   ```bash
-   npx expo start
-   ```
+# 🛠 Tecnologias
+*React Native – framework mobile.
 
-In the output, you'll find options to open the app in a
+*Expo – desenvolvimento e teste rápido em dispositivos reais.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+*expo-sensors – leitura do giroscópio.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+*TypeScript/JavaScript – lógica do jogo e componentes.
 
-## Get a fresh project
+# 📁 Estrutura do Projeto
 
-When you're ready, run:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b392c79f-c664-4d07-ab80-76d112c46f94" alt="Estrutura do Projeto" width="300" height="411" />
+</p>
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# 🧩 Lógica do Jogo
+1-Inicie o jogo na tela inicial.
 
-## Learn more
+2-Incline o celular para mover o tubarão.
 
-To learn more about developing your project with Expo, look at the following resources:
+3-Capture peixinhos → pontuação aumenta + tempo extra.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+4-Timer decrementa → jogo termina quando chega a 0.
 
-## Join the community
+5-Tela de Game Over exibe pontuação final e permite jogar novamente.
 
-Join our community of developers creating universal apps.
+# 🎨 Design e Estilo
+*Fundo do jogo: azul oceano.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+*Player: tubarão cinza com forma triangular.
+
+*Orbe/peixe: laranja, divertido.
+
+*Overlays: HomeScreen e GameOver com cores vibrantes e pastel, botões “bubble”.
+
+*Tipografia: textos grandes e legíveis, com sombras leves para destaque.
+
+# 👤 Autor
+* Mariana Meirelles de Campos
