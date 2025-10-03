@@ -1,4 +1,4 @@
-# 🦈 Shark Orb – Jogo Mobile React Native
+ # 🦈 Shark Orb – Jogo Mobile React Native
 Shark Orb é um jogo mobile feito com React Native e Expo, onde você controla um tubarão usando o giroscópio do celular para capturar peixinhos. Um projeto divertido, colorido e educativo que explora movimento físico do dispositivo, lógica de colisão, timer e pontuação.
 
 # 🎯 Funcionalidades
